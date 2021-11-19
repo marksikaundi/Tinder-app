@@ -1,0 +1,99 @@
+.chatScreen__message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.chatScreen__timestamp {
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+}
+
+.chatScreen_text {
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 0px 2px 10px 3px rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    max-width: 45%;
+    display: block;
+}
+
+.chatScreen_User {
+    margin-left: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 3px rgb(116, 116, 116);
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    max-width: 45%;
+    display: block;
+    flex-direction: column;
+}
+
+.chatScreen__input {
+    border-radius: 20px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    overflow: hidden;
+    padding-bottom: 2vh;
+}
+
+
+.chatScreen__inputField {
+    align-items: center;
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    /* background-color: black; */
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 3px rgb(116, 116, 116);;  
+}
+
+.chatScreen__inputField:focus {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 2px 10px 3px rgba(255, 255, 255, 1);
+}
+
+.chatScreen__inputButton{
+    display: none !important;
+    /* padding: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    /* background-color:  #fe3d71; */
+    /* font-weight: bolder;
+    color: white;
+    outline: none;
+    margin-left: 8px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 3px #fe3d71; */ 
+
+}
+
+/* .chatScreen__inputButton:active{
+    color: #fe3d71;
+    background-color: white;
+} */
+
+.send__logo {
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(1px 5px 5px  white);
+}
+
+.send__logo:active{
+    filter: drop-shadow(1px 5px 5px  #fe3d71);
+}

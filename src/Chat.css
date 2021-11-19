@@ -1,0 +1,45 @@
+.chat {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-image: linear-gradient(to right, rgb(138, 138, 138), rgb(32, 32, 32)); */
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.chat:hover {
+    color: black;
+    background-color: white;
+}
+
+.chat:hover >.chat__timestamp{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 18px 10px 0px rgba(0, 0, 0, 0.5);  
+}
+
+.chat__image {
+    margin-right: 20px;
+}
+
+.chat__details {
+    flex: 1;
+}
+
+.chat__timestamp{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 2px 10px 3px rgba(255, 255, 255, 0.6);
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
